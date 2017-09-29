@@ -1,0 +1,67 @@
+
+/* Layout das tags HTML */
+
+body {
+	font-family: 'Indie Flower', cursive;
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+p {
+	background: #ccc;
+	margin: 5px 10px;
+
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+	font-weight: 900;
+	font-size: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Layout da área usada pelo jogo */
+.area-total {
+	height: 500px;
+	display: inline-block;
+}
+
+/* Layout do menu lateral do jogo */
+.menu {
+	background: white;
+	
+	float: left;
+	height: 100%;
+	display: block;
+
+	text-align: center;
+}
+
+/* Layout dos balões */
+.balao {
+	margin: 5px;
+	float: left;
+}
+
+/* Layout do cronômetro */
+#cronometro {
+	color: red;
+}
+
+/* Layout da área na qual os balões serão clicados*/
+#canvas-jogo {
+	background: url("imagens/cenario.png") no-repeat;
+	background-size: contain;
+	
+	float: left;
+	height: 100%;
+	width: 525px;
+	display: inline-block;
+}

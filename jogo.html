@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Balloon Pop</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<script src="jogo.js"></script>
+	</head>
+
+	<body onload="setup()">
+
+		<div class="area-total">
+			<div class="menu">
+				<h4>Balões restantes</h4>
+				<img src="imagens/balao_azul_grande.png"/>
+				<p id="qtd_baloes"></p>
+
+				<h4>Balões estourados</h4>
+				<img src="imagens/balao_azul_grande_estourado.png"/>
+				<p id="qtd_baloes_estourados"></p>
+
+				<img src="imagens/cronometro.png"/>
+				<p id="cronometro"></p>
+			</div>
+			
+			<div id="canvas-jogo">
+			</div>
+		</div>
+
+	</body>	
+</html>
